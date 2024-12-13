@@ -2,7 +2,7 @@
   <nav>
     <div class="logo">
       <a href="/">
-        <img src="assets/logo.png" alt="best buy Logo">
+        <img :src="require('@/assets/logo.png')" alt="best buy Logo">
       </a>
     </div>
     <button class="hamburger" @click="toggleNav">
